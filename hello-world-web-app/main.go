@@ -17,4 +17,6 @@ func main() {
 	})
 
 	_ = http.ListenAndServe(":8080", nil)
+
+	// go mod init myapp
 }
